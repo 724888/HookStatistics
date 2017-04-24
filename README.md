@@ -1,14 +1,16 @@
 HookStatistics
 
-##HookStatistics includes two way by using method swizzling：
+HookStatistics includes two way by using method swizzling：
 
-#####1 use StatisticsManager to hook methods of different classes 
-#####2 usually  because of referring to business logic，so we could use class category to log user actions
+1 use StatisticsManager to hook methods of different classes 
 
-#####Cocoapods
+2 usually  because of referring to business logic，so we could use class category to log user actions
+
+Cocoapods
+
 excute command： pod install
 
-#####example
+Example
 
 First,swizzling method should happens in +(void)load
 1. swizzling private class method(or public class method) 
