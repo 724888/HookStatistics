@@ -18,7 +18,7 @@ First,swizzling method should happens in +(void)load
 ```objc
 [self swizzleClassSelector:NSSelectorFromString(@"privateClassMethod") andSelector:NSSelectorFromString(@"hk_privateClassMethod")];
 ```
-2. swizzling private instance method(or public class method) 
+2. swizzling private instance method(or public instance method) 
 
 ```objc
 [self swizzleInstanceSelector:NSSelectorFromString(@"privateInstanceMethod") andSelector:NSSelectorFromString(@"hk_privateInstanceMethod")];
