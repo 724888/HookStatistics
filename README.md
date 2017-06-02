@@ -6,7 +6,7 @@ HookStatistics includes two way by using method swizzling：
 
 2 usually  because of referring to business logic，so we could use class category to log user actions
 
-Cocoapods
+Cocoapods：
 
 excute command： pod install
 
